@@ -101,17 +101,17 @@ export default {
 .form-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: max-content;
+  align-items: center;
+  width: 100%;
   height: 100%;
   margin: auto;
   font-size: 1.4rem;
   animation: appearFromRight 700ms;
 
   .logo {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
   }
 
   .link {
@@ -129,6 +129,7 @@ export default {
     margin-top: 50px;
     font-size: 4rem;
     letter-spacing: 2.8px;
+    word-break: break-all;
   }
 
   small {
@@ -188,6 +189,7 @@ export default {
       border-radius: 10px;
       border: none;
       background: linear-gradient(to right, $primary, $primary-dark);
+      margin-top: 30px
     }
   }
 }

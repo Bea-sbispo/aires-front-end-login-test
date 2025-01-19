@@ -11,44 +11,46 @@
 
 <style lang="scss" scoped>
 .container {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: 100vh;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: 'background form';
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
 }
 
 .container-background {
-  grid-area: background;
-  position: relative;
-
-  img {
-    position: absolute;
-    height: 100vh;
-  }
+  display: none;
 }
 
-.container-form {
-  grid-area: form;
+.container-form,
+.form-container {
+  width:100%;
   background: #fff;
-  z-index: 1;
-  padding: 0 50px;
 }
 
-@media screen and (min-width: 1418px) {
+@media screen and (min-width: 910px) {
   .container {
-    grid-template-columns: auto 1fr;
+    height: 100vh;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .container-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     img {
-      position: relative;
-      height: 100vh;
+      height: 100%;
+      width: 100%;
+
     }
   }
 
   .container-form {
-    padding: 0;
+    padding: 0 30px;
   }
 }
+
 </style>
