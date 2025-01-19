@@ -1,7 +1,7 @@
 <template>
   <layout-base>
     <div class="form-container">
-      <img class="logo" src="../assets/logo.svg" alt="Logo" />
+      <img class="logo" src="../assets/img/logo.svg" alt="Logo" />
       <h2>Acesso via e-mail</h2>
       <small>Acesse sua conta Aires por algum método abaixo</small>
 

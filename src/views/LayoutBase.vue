@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div class="container-background">
-      <img src="../assets/background.png" alt="background" />
+      <img src="../assets/img/background.png" alt="background" />
     </div>
     <div class="container-form">
       <slot />

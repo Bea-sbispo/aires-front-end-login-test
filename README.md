@@ -1,6 +1,6 @@
 # Teste de front-end para a Aires Crédito Digital
 
-![image](./src/assets/readme-docs/home.jpg)
+![image](./src/assets/img/readme/readme-main.jpg)
 
 
 ### Tecnologias

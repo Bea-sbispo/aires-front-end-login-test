@@ -1,7 +1,7 @@
 <template>
   <layout-base>
     <div class="form-container">
-      <img class="logo" src="../assets/logo.svg" alt="Logo" />
+      <img class="logo" src="../assets/img/logo.svg" alt="Logo" />
       <h2>Crie sua conta</h2>
       <small>Crie a sua conta Aires.</small>
 
